@@ -1,0 +1,611 @@
+{
+  "version": "v0.1",
+  "date": "2026-10-16",
+  "status": "research_draft_not_customer_approved",
+  "axes": {
+    "COLOR": [
+      {
+        "id": "pink",
+        "name_ko": "핑크",
+        "en": "Pink",
+        "ja_provisional": "ピンク"
+      },
+      {
+        "id": "red",
+        "name_ko": "레드",
+        "en": "Red",
+        "ja_provisional": "レッド"
+      },
+      {
+        "id": "burgundy",
+        "name_ko": "버건디",
+        "en": "Burgundy",
+        "ja_provisional": "ボルドー"
+      },
+      {
+        "id": "orange",
+        "name_ko": "오렌지",
+        "en": "Orange",
+        "ja_provisional": "オレンジ"
+      },
+      {
+        "id": "yellow",
+        "name_ko": "옐로",
+        "en": "Yellow",
+        "ja_provisional": "イエロー"
+      },
+      {
+        "id": "green",
+        "name_ko": "그린",
+        "en": "Green",
+        "ja_provisional": "グリーン"
+      },
+      {
+        "id": "blue",
+        "name_ko": "블루",
+        "en": "Blue",
+        "ja_provisional": "ブルー"
+      },
+      {
+        "id": "purple",
+        "name_ko": "퍼플",
+        "en": "Purple",
+        "ja_provisional": "パープル"
+      },
+      {
+        "id": "brown",
+        "name_ko": "브라운",
+        "en": "Brown",
+        "ja_provisional": "ブラウン"
+      },
+      {
+        "id": "beige",
+        "name_ko": "베이지",
+        "en": "Beige",
+        "ja_provisional": "ベージュ"
+      },
+      {
+        "id": "neutral",
+        "name_ko": "뉴트럴",
+        "en": "Neutral",
+        "ja_provisional": "ニュートラル"
+      },
+      {
+        "id": "white",
+        "name_ko": "화이트",
+        "en": "White",
+        "ja_provisional": "ホワイト"
+      },
+      {
+        "id": "black",
+        "name_ko": "블랙",
+        "en": "Black",
+        "ja_provisional": "ブラック"
+      },
+      {
+        "id": "grey",
+        "name_ko": "그레이",
+        "en": "Grey",
+        "ja_provisional": "グレー"
+      },
+      {
+        "id": "gold",
+        "name_ko": "골드",
+        "en": "Gold",
+        "ja_provisional": "ゴールド"
+      },
+      {
+        "id": "silver",
+        "name_ko": "실버",
+        "en": "Silver",
+        "ja_provisional": "シルバー"
+      },
+      {
+        "id": "multicolor",
+        "name_ko": "멀티컬러",
+        "en": "Multicolor",
+        "ja_provisional": "マルチカラー"
+      }
+    ],
+    "TONE": [
+      {
+        "id": "light",
+        "name_ko": "라이트",
+        "en": "Light",
+        "ja_provisional": "ライト"
+      },
+      {
+        "id": "dark",
+        "name_ko": "다크",
+        "en": "Dark",
+        "ja_provisional": "ダーク"
+      },
+      {
+        "id": "muted",
+        "name_ko": "뮤트",
+        "en": "Muted",
+        "ja_provisional": "くすみ"
+      },
+      {
+        "id": "vivid",
+        "name_ko": "비비드",
+        "en": "Vivid",
+        "ja_provisional": "ビビッド"
+      },
+      {
+        "id": "pastel",
+        "name_ko": "파스텔",
+        "en": "Pastel",
+        "ja_provisional": "パステル"
+      },
+      {
+        "id": "neon",
+        "name_ko": "네온",
+        "en": "Neon",
+        "ja_provisional": "ネオン"
+      },
+      {
+        "id": "warm",
+        "name_ko": "웜톤",
+        "en": "Warm",
+        "ja_provisional": "ウォーム"
+      },
+      {
+        "id": "cool",
+        "name_ko": "쿨톤",
+        "en": "Cool",
+        "ja_provisional": "クール"
+      }
+    ],
+    "TRANSPARENCY": [
+      {
+        "id": "opaque",
+        "name_ko": "불투명",
+        "en": "Opaque",
+        "ja_provisional": "不透明"
+      },
+      {
+        "id": "sheer",
+        "name_ko": "반투명",
+        "en": "Sheer",
+        "ja_provisional": "シアー"
+      },
+      {
+        "id": "clear",
+        "name_ko": "투명",
+        "en": "Clear",
+        "ja_provisional": "クリア"
+      }
+    ],
+    "LAYOUT": [
+      {
+        "id": "solid",
+        "name_ko": "원컬러",
+        "en": "Solid",
+        "ja_provisional": "ワンカラー"
+      },
+      {
+        "id": "french",
+        "name_ko": "프렌치",
+        "en": "French",
+        "ja_provisional": "フレンチ"
+      },
+      {
+        "id": "reverse_french",
+        "name_ko": "리버스 프렌치",
+        "en": "Reverse French",
+        "ja_provisional": "逆フレンチ"
+      },
+      {
+        "id": "ombre",
+        "name_ko": "옴브레/그라데이션",
+        "en": "Ombre/Gradient",
+        "ja_provisional": "グラデーション"
+      },
+      {
+        "id": "aura",
+        "name_ko": "아우라",
+        "en": "Aura",
+        "ja_provisional": "オーラ"
+      },
+      {
+        "id": "cheek",
+        "name_ko": "치크",
+        "en": "Cheek/Blush",
+        "ja_provisional": "チーク"
+      },
+      {
+        "id": "marble",
+        "name_ko": "마블",
+        "en": "Marble",
+        "ja_provisional": "マーブル"
+      },
+      {
+        "id": "check",
+        "name_ko": "체크",
+        "en": "Check/Plaid",
+        "ja_provisional": "チェック"
+      },
+      {
+        "id": "dot",
+        "name_ko": "도트",
+        "en": "Polka Dot",
+        "ja_provisional": "ドット"
+      },
+      {
+        "id": "stripe",
+        "name_ko": "스트라이프",
+        "en": "Stripe",
+        "ja_provisional": "ストライプ"
+      },
+      {
+        "id": "animal_print",
+        "name_ko": "애니멀 패턴",
+        "en": "Animal Print",
+        "ja_provisional": "アニマル柄"
+      },
+      {
+        "id": "abstract",
+        "name_ko": "추상 패턴",
+        "en": "Abstract",
+        "ja_provisional": "ニュアンス"
+      }
+    ],
+    "FINISH_EFFECT": [
+      {
+        "id": "glossy",
+        "name_ko": "글로시",
+        "en": "Glossy",
+        "ja_provisional": "グロッシー"
+      },
+      {
+        "id": "matte",
+        "name_ko": "매트",
+        "en": "Matte",
+        "ja_provisional": "マット"
+      },
+      {
+        "id": "chrome",
+        "name_ko": "크롬",
+        "en": "Chrome/Mirror",
+        "ja_provisional": "ミラー"
+      },
+      {
+        "id": "magnetic",
+        "name_ko": "자석/캣아이",
+        "en": "Magnetic/Cat Eye",
+        "ja_provisional": "マグネット"
+      },
+      {
+        "id": "glitter",
+        "name_ko": "글리터",
+        "en": "Glitter",
+        "ja_provisional": "ラメ"
+      },
+      {
+        "id": "shimmer",
+        "name_ko": "쉬머",
+        "en": "Shimmer",
+        "ja_provisional": "シマー"
+      },
+      {
+        "id": "pearl",
+        "name_ko": "펄",
+        "en": "Pearlescent",
+        "ja_provisional": "パール"
+      },
+      {
+        "id": "iridescent",
+        "name_ko": "오로라",
+        "en": "Iridescent",
+        "ja_provisional": "オーロラ"
+      },
+      {
+        "id": "holographic",
+        "name_ko": "홀로그램",
+        "en": "Holographic",
+        "ja_provisional": "ホログラム"
+      },
+      {
+        "id": "jelly",
+        "name_ko": "젤리",
+        "en": "Jelly",
+        "ja_provisional": "ジェリー"
+      },
+      {
+        "id": "syrup",
+        "name_ko": "시럽",
+        "en": "Syrup",
+        "ja_provisional": "シロップ"
+      },
+      {
+        "id": "glazed",
+        "name_ko": "글레이즈드",
+        "en": "Glazed",
+        "ja_provisional": "グレーズド"
+      }
+    ],
+    "MOTIF": [
+      {
+        "id": "flower",
+        "name_ko": "꽃",
+        "en": "Floral",
+        "ja_provisional": "フラワー"
+      },
+      {
+        "id": "bow",
+        "name_ko": "리본",
+        "en": "Bow",
+        "ja_provisional": "リボン"
+      },
+      {
+        "id": "heart",
+        "name_ko": "하트",
+        "en": "Heart",
+        "ja_provisional": "ハート"
+      },
+      {
+        "id": "star",
+        "name_ko": "별",
+        "en": "Star",
+        "ja_provisional": "スター"
+      },
+      {
+        "id": "butterfly",
+        "name_ko": "나비",
+        "en": "Butterfly",
+        "ja_provisional": "蝶"
+      },
+      {
+        "id": "lace",
+        "name_ko": "레이스",
+        "en": "Lace",
+        "ja_provisional": "レース"
+      },
+      {
+        "id": "leopard",
+        "name_ko": "레오파드",
+        "en": "Leopard",
+        "ja_provisional": "レオパード"
+      },
+      {
+        "id": "character",
+        "name_ko": "캐릭터",
+        "en": "Character",
+        "ja_provisional": "キャラクター"
+      },
+      {
+        "id": "fruit",
+        "name_ko": "과일",
+        "en": "Fruit",
+        "ja_provisional": "フルーツ"
+      },
+      {
+        "id": "seasonal_symbol",
+        "name_ko": "시즌 상징",
+        "en": "Seasonal Motif",
+        "ja_provisional": "季節モチーフ"
+      }
+    ],
+    "DECOR": [
+      {
+        "id": "gem",
+        "name_ko": "젬/스톤",
+        "en": "Gem/Rhinestone",
+        "ja_provisional": "ストーン"
+      },
+      {
+        "id": "pearl_charm",
+        "name_ko": "진주 파츠",
+        "en": "Pearl Charm",
+        "ja_provisional": "パールパーツ"
+      },
+      {
+        "id": "metal_stud",
+        "name_ko": "금속 파츠",
+        "en": "Metal Stud",
+        "ja_provisional": "メタルパーツ"
+      },
+      {
+        "id": "three_d",
+        "name_ko": "3D 파츠",
+        "en": "3D Charm",
+        "ja_provisional": "立体パーツ"
+      },
+      {
+        "id": "embossed",
+        "name_ko": "엠보싱",
+        "en": "Embossed",
+        "ja_provisional": "エンボス"
+      },
+      {
+        "id": "foil",
+        "name_ko": "포일",
+        "en": "Foil/Leaf",
+        "ja_provisional": "ホイル"
+      }
+    ],
+    "SHAPE": [
+      {
+        "id": "round",
+        "name_ko": "라운드",
+        "en": "Round",
+        "ja_provisional": "ラウンド"
+      },
+      {
+        "id": "oval",
+        "name_ko": "오발",
+        "en": "Oval",
+        "ja_provisional": "オーバル"
+      },
+      {
+        "id": "square",
+        "name_ko": "스퀘어",
+        "en": "Square",
+        "ja_provisional": "スクエア"
+      },
+      {
+        "id": "squoval",
+        "name_ko": "스퀘어오발",
+        "en": "Squoval",
+        "ja_provisional": "スクエアオフ"
+      },
+      {
+        "id": "almond",
+        "name_ko": "아몬드",
+        "en": "Almond",
+        "ja_provisional": "アーモンド"
+      },
+      {
+        "id": "coffin",
+        "name_ko": "코핀",
+        "en": "Coffin/Ballerina",
+        "ja_provisional": "コフィン"
+      },
+      {
+        "id": "stiletto",
+        "name_ko": "스틸레토",
+        "en": "Stiletto",
+        "ja_provisional": "スティレット"
+      }
+    ],
+    "LENGTH": [
+      {
+        "id": "real_short",
+        "name_ko": "초단축",
+        "en": "Real Short",
+        "ja_provisional": "ベリーショート"
+      },
+      {
+        "id": "short",
+        "name_ko": "숏",
+        "en": "Short",
+        "ja_provisional": "ショート"
+      },
+      {
+        "id": "medium",
+        "name_ko": "미디엄",
+        "en": "Medium",
+        "ja_provisional": "ミディアム"
+      },
+      {
+        "id": "long",
+        "name_ko": "롱",
+        "en": "Long",
+        "ja_provisional": "ロング"
+      },
+      {
+        "id": "unknown_length",
+        "name_ko": "길이 확인 불가",
+        "en": "Unknown",
+        "ja_provisional": "不明"
+      }
+    ],
+    "PRODUCT_TYPE": [
+      {
+        "id": "gel_strip",
+        "name_ko": "젤 스트립",
+        "en": "Semi-cured Gel Strip",
+        "ja_provisional": "ジェルネイルシール"
+      },
+      {
+        "id": "gel_tip",
+        "name_ko": "젤 팁",
+        "en": "Gel Tip",
+        "ja_provisional": "ジェルネイルチップ"
+      },
+      {
+        "id": "press_on",
+        "name_ko": "프레스온 팁",
+        "en": "Press-on Nail",
+        "ja_provisional": "プレスオンネイル"
+      },
+      {
+        "id": "gel_polish",
+        "name_ko": "젤 폴리시",
+        "en": "Gel Polish",
+        "ja_provisional": "ジェルポリッシュ"
+      },
+      {
+        "id": "polish",
+        "name_ko": "네일 폴리시",
+        "en": "Nail Polish",
+        "ja_provisional": "ネイルポリッシュ"
+      },
+      {
+        "id": "care_tools",
+        "name_ko": "케어·툴",
+        "en": "Care & Tools",
+        "ja_provisional": "ネイルケア用品"
+      }
+    ],
+    "CONTEXT": [
+      {
+        "id": "office",
+        "name_ko": "오피스",
+        "en": "Office",
+        "ja_provisional": "オフィス"
+      },
+      {
+        "id": "bridal",
+        "name_ko": "웨딩",
+        "en": "Bridal/Wedding",
+        "ja_provisional": "ブライダル"
+      },
+      {
+        "id": "daily",
+        "name_ko": "데일리",
+        "en": "Everyday",
+        "ja_provisional": "デイリー"
+      },
+      {
+        "id": "halloween",
+        "name_ko": "핼러윈",
+        "en": "Halloween",
+        "ja_provisional": "ハロウィン"
+      },
+      {
+        "id": "christmas",
+        "name_ko": "크리스마스",
+        "en": "Christmas/Holiday",
+        "ja_provisional": "クリスマス"
+      },
+      {
+        "id": "collab",
+        "name_ko": "캐릭터 협업",
+        "en": "Collaboration",
+        "ja_provisional": "コラボ"
+      }
+    ]
+  },
+  "notes": [
+    "No formal global nail design taxonomy claimed",
+    "Multiple axes allowed per post",
+    "Product type not inferred from standalone finished nail photo",
+    "Source-backed brand labels separate from proposed canonical tags",
+    "Unknown/Not visible allowed",
+    "Commercial color swatches not reproduced"
+  ],
+  "references": {
+    "S01": "https://ohora.kr/product/list.html?cate_no=815",
+    "S02": "https://www.ohora.kr/product/list.html?cate_no=121",
+    "S03": "https://ohora.com/collections/mani?page=3",
+    "S04": "https://www.kissusa.com/collections/squoval-nails",
+    "S05": "https://ohora.co.jp/collections/nail",
+    "S06": "https://ohora.co.jp/collections/disney_collection/products/nd-099-j",
+    "S07": "https://dashingdiva.co.kr/category/shop/1045/",
+    "S08": "https://www.nail.or.jp/kentei/g_kentei_guide.html",
+    "S09": "https://www.iso.org/standard/74166.html",
+    "S10": "https://www.jcri.jp/achievement_1",
+    "S11": "https://www.pantone.com/na/en-us/fashion-home-interiors",
+    "S12": "https://ncscolour.com/en-int/pages/the-system",
+    "S13": "https://coloro.com/key-colors",
+    "S14": "https://jafca.org/colortrend/2026%E5%B9%B4%E3%81%AE%E8%89%B2%E3%81%AF%E3%80%81%E5%BF%83%E6%BA%80%E3%81%A1%E3%82%8B%E3%83%8F%E3%83%BC%E3%83%88%E3%83%95%E3%82%A7%E3%83%AB%E3%83%88%EF%BD%A5%E3%83%94%E3%83%B3%E3%82%AF/",
+    "S15": "https://hrdc.hrdkorea.or.kr/hrdc/download/downloadFile.hrd?attachSeq=547108",
+    "S16": "https://ohora.co.jp/collections/2026-autumn-glow-nail/products/nd-435",
+    "S17": "https://www.ohora.kr/",
+    "S18": "https://jafca.org/colortrend/2026%E5%B9%B4%E6%98%A5%E5%A4%8Fjafca%E3%83%AC%E3%83%87%E3%82%A3%E3%82%B9%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%AB%E3%83%A9%E3%83%BC/",
+    "S19": "https://ohora.com/collections/by-color_red",
+    "S20": "https://www.nail.or.jp/publish/jnatext.html"
+  }
+}

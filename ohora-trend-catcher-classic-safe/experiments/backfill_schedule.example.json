@@ -1,0 +1,29 @@
+{
+  "schedule_enabled": false,
+  "separate_authorized_apps_confirmed": false,
+  "cycle_minutes": 90,
+  "weekdays": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "business_hours_kst": {
+    "start": null,
+    "end": null
+  },
+  "source": "../../2차 프로젝트 홍주님께 제공할 수집데이터/account_list.csv",
+  "apps": {
+    "A": {
+      "enabled": false,
+      "env_file": "../../2차 프로젝트 홍주님께 제공할 수집데이터/kq3_294_collection/.env.local",
+      "output_dir": "results/backfill_app_A"
+    },
+    "B": {
+      "enabled": false,
+      "env_file": "../../2차 프로젝트 홍주님께 제공할 수집데이터/hongju_new_token.env.local",
+      "output_dir": "results/backfill_app_B"
+    }
+  }
+}

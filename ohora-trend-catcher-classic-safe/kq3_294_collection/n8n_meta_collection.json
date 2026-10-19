@@ -1,0 +1,37 @@
+{
+  "name": "OHORA KQ3 - Meta collection 294 accounts",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c4e9f6b9-614c-4b6c-a2f4-80ef62c1c0e1",
+      "name": "Manual Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "command": "python \"C:\\Users\\haein\\OneDrive\\Desktop\\2차 프로젝트 아카이브\\2차 프로젝트 홍주님께 제공할 수집데이터\\kq3_294_collection\\collector.py\" --stage meta"
+      },
+      "id": "089d03dd-d9e7-40da-aab9-6e340339f7de",
+      "name": "Collect Meta data and save incrementally",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [500, 300]
+    }
+  ],
+  "connections": {
+    "Manual Start": {
+      "main": [[{"node": "Collect Meta data and save incrementally", "type": "main", "index": 0}]]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "3bd9db45-d7f8-43d3-bdb9-7f220d016771",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": []
+}
